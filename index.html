@@ -98,6 +98,7 @@
                 alert(user);
                 $("#otpSuccess").text("Auth successful");
                 $("#otpSuccess").show();
+                window.location = "http://www.google.com";
             }).catch(function (error) {
                 $("#showError").text(error.message);
                 $("#showError").show();
